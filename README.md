@@ -86,11 +86,14 @@
 
 ---
 
-## ✅ How to Run
+## ✅ How to Run Messy-migration
 
 ```bash
+cd messy-migration
 # 1. Install dependencies
-pip install flask bcrypt
+pip install -r requirements.txt
+
+pip install flask bcry
 
 # 2. Initialize the database
 python init_db.py
@@ -99,7 +102,7 @@ python init_db.py
 python app.py
 
 
-# CHANGES.md – URL Shortener Assignment
+#  URL Shortener Assignment
 
 ## ✅ Major Issues Handled
 
@@ -225,4 +228,5 @@ curl -X POST http://localhost:5000/api/shorten \
 
 # Get Stats
 curl http://localhost:5000/api/stats/<short_code>
+
 
