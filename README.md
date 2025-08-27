@@ -100,7 +100,7 @@ python init_db.py
 
 # 3. Start the app
 python app.py
-
+```
 
 #  URL Shortener Assignment
 
@@ -228,5 +228,6 @@ curl -X POST http://localhost:5000/api/shorten \
 
 # Get Stats
 curl http://localhost:5000/api/stats/<short_code>
+
 
 
