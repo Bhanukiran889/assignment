@@ -228,6 +228,11 @@ curl -X POST http://localhost:5000/api/shorten \
 
 # Get Stats
 curl http://localhost:5000/api/stats/<short_code>
-
-
-
+```
+### Postman Api test
+```bash
+method: POST
+URL: http://127.0.0.1:5000/api/shorten
+Body JSON : {
+usrl: https://example.com
+```
